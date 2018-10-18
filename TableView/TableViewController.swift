@@ -9,6 +9,10 @@
 import UIKit
 
 class TableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
+    // Will not initialize the table view values unless the
+    // Table View has declared the Table View Controller it's
+    // data provider via delegate and datasource outlets which
+    // are attached to the Table View object
     private let animes = [
         "Sonic", "Digimon", "Pokemon", "Yu-Gi-Oh",
         "Dragon Ball Z", "Dragon Ball GT","Bleach",
